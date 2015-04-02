@@ -1,4 +1,4 @@
-package level.basic;
+package binarysearch;
 
 /**
  * Ýkili Arama, sýralý bir dizide, belirli deðerin bulunmasýna yönelik bir algoritmadýr.

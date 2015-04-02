@@ -1,14 +1,10 @@
-package level.basic;
+package faktoriyel;
 
-import static org.junit.Assert.*;
-
-import java.math.BigDecimal;
-import java.util.logging.LogManager;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.enlil.desktop.global.EROScriptUtil;
 
 public class TestFaktoriyel {
 
@@ -60,10 +56,4 @@ public class TestFaktoriyel {
 		}
 	}
 	
-	@Test
-	public void sfdsf() {
-		
-		System.out.println("sdfsdf"+(EROScriptUtil.hesapla("Math.pow(2, -0.329);")));
-	}
- 
 }

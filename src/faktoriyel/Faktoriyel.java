@@ -1,4 +1,4 @@
-package level.basic;
+package faktoriyel;
 
 public class Faktoriyel {
 	public static String MESAJ_NEGATIF = "Negatif Sayýlar Ýçin Faktoriyel Hesabý Yapýlamaz.";
