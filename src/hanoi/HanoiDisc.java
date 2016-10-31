@@ -14,11 +14,16 @@ public class HanoiDisc {
 
 	public HanoiDisc(int index) {
 		this.index = index;
- 	}
-	
+	}
+
 	@Override
 	public String toString() {
-		return  String.valueOf(index);
+		return String.valueOf(index);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return index == ((HanoiDisc) obj).getIndex();
 	}
 
 }

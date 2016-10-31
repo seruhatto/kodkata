@@ -5,5 +5,5 @@ public class NegativeValueException extends RuntimeException {
 
 	public NegativeValueException() {
 		super("Negative Value");
- 	}
+	}
 }

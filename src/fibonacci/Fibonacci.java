@@ -2,11 +2,12 @@ package fibonacci;
 
 public class Fibonacci {
 
-	public static final int MAX_LIMIT = 46; 
-	
+	public static final int MAX_LIMIT = 46;
+
 	/**
 	 * n=0 ; 0 </br> F(n) = {n=1 ; 1 </br> n>1 ; F(n-1) + F(n-2)
-	 * @throws NegativeValueException 
+	 * 
+	 * @throws NegativeValueException
 	 * 
 	 */
 
@@ -15,7 +16,7 @@ public class Fibonacci {
 			throw new NegativeValueException();
 		} else if (deger < 2) {
 			return deger;
-		} else if (deger > MAX_LIMIT){
+		} else if (deger > MAX_LIMIT) {
 			throw new MaxLimitException();
 		} else {
 			return calculate(deger - 1) + calculate(deger - 2);

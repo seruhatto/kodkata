@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-
 public class TestFaktoriyel {
 
 	@Before
@@ -51,9 +50,10 @@ public class TestFaktoriyel {
 			Faktoriyel.hesapla(n);
 
 		} catch (ArithmeticException e) {
-			assertEquals("Negatif Sayýlar Hesaplanamaz.", Faktoriyel.MESAJ_NEGATIF, e.getMessage());
+			assertEquals("Negatif Sayýlar Hesaplanamaz.",
+					Faktoriyel.MESAJ_NEGATIF, e.getMessage());
 
 		}
 	}
-	
+
 }
